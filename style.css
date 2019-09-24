@@ -1,0 +1,54 @@
+html, body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 0
+}
+
+.content {
+    max-width: 1366px;
+    margin: 0 auto !important;
+    padding: 0 3%;
+}
+
+.container {
+    width: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/***********************************************
+******************* HEADER ********************
+***********************************************/
+.main_header{
+    text-align: center;
+    margin: 40px 0
+}
+
+.main_header img{
+    margin-bottom: 15px;
+    width: 250px;
+}
+
+.main_header p{
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.main_hero{
+    background-color: #000;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.main_hero h1{
+    color: #fff;
+    font-weight: 700
+}
+
+.main_hero h1 span.font-light{
+    font-weight: 400
+}
