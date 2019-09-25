@@ -19,36 +19,262 @@ img{
     max-width: 100%;
 }
 
-
+.color-yellow{
+    color: #ff0;
+}
 /***********************************************
 ******************* HEADER ********************
 ***********************************************/
 .main_header{
     text-align: center;
-    margin: 40px 0
+    margin: 30px 0
 }
 
 .main_header img{
     margin-bottom: 15px;
-    width: 250px;
+    width: 200px;
 }
 
 .main_header p{
     margin: 0;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .main_hero{
     background-color: #000;
     text-align: center;
-    padding: 40px 0;
+    padding: 30px 0 0 0;
 }
 
 .main_hero h1{
     color: #fff;
-    font-weight: 700
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 1.5em
 }
 
 .main_hero h1 span.font-light{
     font-weight: 400
+}
+
+
+/***********************************************
+******************* HERO NOTEBOOK ********************
+***********************************************/
+.main_hero_notebook{
+    background-color: #ff0;
+    padding: 0 100px;
+    position: relative
+}
+
+.main_hero_notebook img{
+    position: relative;
+    top: -15px
+}
+
+/***********************************************
+******************* CTA 1 **************
+***********************************************/
+.main_cta{
+    background: linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/lupa-bgcta1.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 150px 0 0 0
+}
+
+.main_cta header >  i{
+    font-size: 3em;
+    color: #fff;
+}
+
+.main_cta h1{
+    margin: 0;
+    color: #fff;
+    font-size: 2.5em;
+    margin: 20px 0
+}
+
+.main_cta p{
+    margin: 0;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0 100px
+}
+
+.main_cta_icons{
+    background-color: #fff;
+    display: flex;
+    margin-top: 80px;
+}
+
+.main_cta_icons_round{
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 50px 50px 0px 50px;
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+}
+
+.main_cta_icons div > ul{
+    position: relative;
+    top: -50px
+}
+
+.main_cta_button_box{
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    padding: 50px 0 48px 0
+}
+
+.main_cta_button{
+    margin: 0 auto;
+    font-size: 2em !important;
+    background-color: #24a0ed !important;
+    border-radius: 30px !important;
+}
+
+
+.main_info{
+    padding: 50px 0;
+}
+
+.main_info header{
+    text-align: center
+}
+
+.main_info header h1{
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 0
+}
+
+.main_info header p{
+    font-size: 1.3em
+}
+
+.main_info_box{
+    text-align: center;
+    padding: 100px 200px 0 200px;
+}
+
+.main_info_box article{
+    margin-bottom: 100px
+}
+
+.main_info_box article img{
+    max-width: 25%;
+}
+
+.main_info_box article h2{
+    font-size: 2em;
+    font-weight: 700
+}
+
+.main_info_box article p{
+    font-size: 1.2em;
+    text-align: justify
+}
+
+.main_info_finish{
+    background-color: #000;
+    padding: 20px 0;
+    border-radius: 30px;
+}
+
+.main_info_finish p{
+    color: #fff;
+    font-size: 2em;
+    margin: 0
+}
+
+
+
+
+.main_faq{
+    padding: 50px 0;
+}
+
+.main_faq header{
+    text-align: center
+}
+
+.main_faq header h1{
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 0
+}
+
+.main_faq_box{
+    text-align: center;
+    padding: 50px 200px 0 200px;
+}
+
+.main_faq_box article{
+    margin-bottom: 100px
+}
+
+.main_faq_box article img{
+    max-width: 25%;
+}
+
+.main_faq_box article h2{
+    font-size: 1.5em;
+    font-weight: 700
+}
+
+.main_faq_box article p{
+    font-size: 1.2em;
+    text-align: justify
+}
+
+
+.main_about header{
+    background: linear-gradient(0deg,rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url(img/lupa-bg-about.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0
+}
+
+.main_about header h1{
+    font-weight: 700
+}
+
+.main_about_box{
+    padding: 50px 200px 0 200px;
+}
+
+.main_about_box p{
+    font-size: 1.3em;
+    line-height: 1.7em;
+    text-align: justify
+}
+
+.main_about_social {
+    text-align: center
+}
+
+.main_about_social ul li{
+    display: inline-block;
+    padding: 0 30px
+}
+
+.main_about_social ul li a{
+    font-size: 3em;
+    color: #323232;
+}
+
+.main_about_social ul li a:hover{
+    color: #3b5998
+}
+
+.main_footer {
+    padding: 20px 0;
+    text-align: center;
+    border-width: 1px 0px 0px 0px;
+    border-color: #d6d6d6;
+    border-style: dotted;
 }
