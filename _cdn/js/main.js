@@ -26,7 +26,6 @@ $(function () {
 //    });
 
 
-
     // EFEITOS DE SCROLL
     window.sr = ScrollReveal();
     sr.reveal('.srBottom', {origin: 'bottom', distance: '200px', duration: 1500, delay: 1});
@@ -34,6 +33,44 @@ $(function () {
     sr.reveal('.srLeft', {origin: 'left', distance: '200px', duration: 1500, delay: 1});
     sr.reveal('.srRight', {origin: 'right', distance: '200px', duration: 1500, delay: 1});
     sr.reveal('.boxs', {duration: 2000});
+});
+
+// SLIDER DAS SEÇÕES
+
+$('.slider_testemonial').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    autoplaySpeed: 5000,
+    arrows: false,
+    autoplay: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 960,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
 });
 
 $(window).scroll(function () {
@@ -59,7 +96,7 @@ $('.menu_mobile').click(function () {
     $('.main_header_menu_box').css('display', 'block');
     if (!$(this).hasClass('active')) {
         $(this).addClass('active');
-        $(".menu_mobile > i").attr("class", "fas fa-times" );
+        $(".menu_mobile > i").attr("class", "fas fa-times");
         $(".menu_mobile > p").html("Fechar");
         $('.main_menu_box').animate({'right': '0px'}, 500);
         $('.main_header_menu_box ul li a').click(function () {
@@ -69,7 +106,7 @@ $('.menu_mobile').click(function () {
         });
     } else {
         $(this).removeClass('active');
-        $(".menu_mobile > i").attr("class", "fas fa-bars" );
+        $(".menu_mobile > i").attr("class", "fas fa-bars");
         $(".menu_mobile > p").html("Menu");
         $('.main_menu_box').animate({'right': '-100%'}, 500);
     }
