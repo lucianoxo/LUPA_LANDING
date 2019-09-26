@@ -7,21 +7,22 @@
         <meta name="description" content="Essa promoção é ideal para aqueles que estão com o orçamento apertado por conta dos gastos iniciais para iniciar seu negócio e gostariam de ter um site com sua própria marca. Esse empurrãozinho ajudará a divulgar seus serviços e se tornar reconhecido com seu empreendimento."/>
         <meta name="robots" content="index, follow"/>
 
-        <link rel="canonical" href="">
+        <link rel="canonical" href="https://lupasolucoes.com/ampliar">
 
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Promoção AMPLIAR - Lupa Agência WEB"/>
+        <meta property="og:title" content="Tenha seu logo e site com orçamento apertado"/>
         <meta property="og:description" content="Essa promoção é ideal para aqueles que estão com o orçamento apertado por conta dos gastos iniciais para iniciar seu negócio e gostariam de ter um site com sua própria marca. Esse empurrãozinho ajudará a divulgar seus serviços e se tornar reconhecido com seu empreendimento."/>
-        <meta property="og:image" content=""/>
-        <meta property="og:url" content=""/>
-        <meta property="og:site_name" content="Promoção AMPLIAR - Lupa Agência WEB"/>
+        <meta property="og:image" content="https://lupasolucoes.com/ampliar/img/lupa-social.png"/>
+        <meta property="og:url" content="https://lupasolucoes.com/ampliar"/>
+        <meta property="og:site_name" content="Promoção AMPLIAR - Crie seu logo e site"/>
         <meta property="og:locale" content="pt-br"/>
 
-        <meta itemprop="name" content="Promoção AMPLIAR - Lupa Agência WEB"/>
+        <meta itemprop="name" content="Tenha seu logo e site com orçamento apertado"/>
         <meta itemprop="description" content="Essa promoção é ideal para aqueles que estão com o orçamento apertado por conta dos gastos iniciais para iniciar seu negócio e gostariam de ter um site com sua própria marca. Esse empurrãozinho ajudará a divulgar seus serviços e se tornar reconhecido com seu empreendimento."/>
-        <meta itemprop="image" content=""/>
-        <meta itemprop="url" content=""/>
-
+        <meta itemprop="image" content="https://lupasolucoes.com/ampliar/img/lupa-social.png"/>
+        <meta itemprop="url" content="https://lupasolucoes.com/ampliar"/>
+        
+        <link rel="shortcut icon" href="img/favicon.png" />
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">        
         <link rel="stylesheet" href="style.css"/>
@@ -109,25 +110,25 @@
                     </header>
 
                     <div class="main_info_box">
-                        <article>
+                        <article class="srLeft">
                             <img src="img/lupa-icon-hand.jpg" class="responsive-img">
                             <h2>1º passo:</h2>
                             <p>Após o pagamento, você preencherá o briefing com o máximo de detalhes possíveis para realizarmos a construção da sua marca. Nesse processo é importante preencher tudo bem detalhado, pois <span style="color: red">não será possível alterar após a criação</span>.</p>
                         </article>
 
-                        <article>
+                        <article class="srRight">
                             <img src="img/lupa-icon-canvas.jpg" class="responsive-img">
                             <h2>2º passo:</h2>
                             <p>Após o preenchimento, iniciaremos o processo de criação da logo e mandaremos <b>DOIS MODELOS</b> para escolha.</p>
                         </article>
 
-                        <article>
+                        <article class="srLeft">
                             <img src="img/lupa-icon-award.jpg" class="responsive-img">
                             <h2>3º passo:</h2>
                             <p>Com o logotipo aprovado, implementaremos o seu site com a sua marca e informações. Ah… ele irá com Gerenciador de Conteúdo para você mesmo editar suas informações. <b>Veja como será o layout do site: CLIQUE AQUI</b></p>
                         </article>
 
-                        <div class="main_info_finish">
+                        <div class="main_info_finish boxs">
                             <i class="fas fa-thumbs-up"></i>
                             <p>Tudo pronto! Seu negócio em breve estará online =D</p>
                         </div>
