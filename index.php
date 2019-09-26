@@ -32,6 +32,17 @@
         <link rel="stylesheet" href="_cdn/js/slick/slick.css"/>
 
         <script src="//code.jivosite.com/widget.js" data-jv-id="SiGZRAbtgz" async></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148856021-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-148856021-1');
+        </script>
     </head>
     <body>
         <header class="main_header container">
@@ -222,7 +233,7 @@
                                 <p>"Com a Lupa Soluções é preto no branco. Seriedade, amizade e comprometimento fazem parte de uma história longa de parceria"</p>
                             </div>
                         </article>
-                        
+
                         <article>
                             <div class="main_testemonial_photo col s12 m4 l4">
                                 <div class="mask-photos">
